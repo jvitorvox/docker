@@ -3,3 +3,5 @@ docker-machine ls
 eval $("C:\Program Files\Docker Toolbox\docker-machine.exe" env default -shell=gitbash)
 
 docker ps
+
+composer create-project --prefer-dist laravel/laravel blog
